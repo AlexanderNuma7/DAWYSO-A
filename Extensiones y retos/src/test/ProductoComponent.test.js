@@ -1,7 +1,8 @@
 import { mount } from '@vue/test-utils'
 import { describe, it, expect, vi } from 'vitest'
 
-// Simulamos Bootstrap Modal ANTES de importar el componente
+
+
 vi.mock('bootstrap', () => {
   const Modal = function() {
     this.show = vi.fn()
@@ -12,7 +13,7 @@ vi.mock('bootstrap', () => {
 
 import ProductoComponent from '@/components/ProductoComponent.vue'
 
-// Simulamos el fetch global
+
 global.fetch = vi.fn(() =>
   Promise.resolve({
     json: () => Promise.resolve([

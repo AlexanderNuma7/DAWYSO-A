@@ -20,7 +20,7 @@
       </tbody>
     </table>
 
-    <!-- Modal -->
+    
     <div class="modal fade" id="productoModal" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content">
