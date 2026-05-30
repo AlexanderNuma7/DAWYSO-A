@@ -11,4 +11,5 @@ export default {
   name: 'ProductoView',
   components: { ProductoComponent }
 }
+// si prueba para hacer gitbash
 </script>
